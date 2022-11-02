@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Space+Mono&display=swap');
+
+body{
+  background-color: #FFFFFF;
+  color: #2D3142;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 8px;
+  text-align: center;
+}
+
+h1 {
+  color: #EF8354;
+  font-size: 40px;
+}
+
+h2 {
+  color: #BFC0C0;
+}
+
+h1, h2 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  font-weight: bold;
+  color: white;
+  text-decoration:dotted;
+  padding: 20px 0;
+}
+
+a:hover {
+  font-weight: bold;
+  color: #EF8354;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  height: 10px;
+}
+
+.list-inline i {
+  display: inline-block;
+  padding: 0px 20px;
+  height: 10px;
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+
+
+.list-inline i:hover{
+  color: #4F5D75;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 100px;
+}
+
+.card-white {
+  padding: 40px;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  background: white;
+  box-shadow: 2px 2px 6px grey;
+  width: 600px;
+  margin: 10px auto;
+}
+
+#btn-orange {
+  background-color: #4F5D75;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+#btn-orange:hover {
+  background-color: #EF8354;
+  color: white;
+}
+
+#intro p {
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
