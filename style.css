@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Space+Mono&display=swap');
 
 body{
-  background-color: #FFFFFF;
+  background-color: #2D3142;
   color: #2D3142;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -32,6 +32,7 @@ a {
 a:hover {
   font-weight: bold;
   color: #EF8354;
+  transition: 0.5s ease;
 }
 
 .list-inline {
@@ -53,30 +54,40 @@ a:hover {
   color: rgb(230, 230, 230);
 }
 
-
 .list-inline i:hover{
   color: #4F5D75;
+  transition: 1s ease;
 }
 
 .img-circle {
   border-radius: 50%;
   width: 100px;
+  object-fit: cover;
+  height: 100px;
+  object-position: center;
+  border: 2px solid white;
+  box-shadow: 0px 0px 5px grey;
+}
+
+.container {
+  width: 100%;
 }
 
 .card-white {
   padding: 40px;
   border: 1px solid lightgrey;
   border-radius: 4px;
-  background: white;
-  box-shadow: 2px 2px 6px grey;
+  box-shadow: 2px 2px 6px white;
   width: 600px;
   margin: 10px auto;
+  background-color: white;
 }
 
 #btn-orange {
   background-color: #4F5D75;
   padding: 15px 20px;
-  border-radius: 4px;
+  border-radius: 10px;
+  text-decoration: none;
 }
 
 #btn-orange:hover {
